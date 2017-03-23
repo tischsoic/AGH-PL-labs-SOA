@@ -1,0 +1,23 @@
+WildFly:
+- user: asdf
+- password: asdf
+
+
+Jeśli robimy deploy poprzez console webową localhost:9990 (czy jakoś tak) to ścierzka jest postaci:
+localhost:8080/<nazwa wara>/<reszta urla>
+jeśli war jest ze spacjami, to może nie działać!
+
+Trzeba było przeczytać z tutoriali Oracle o Servletach - rozdział 17.
+
+
+Tworzenie nowego projektu:
+- IntelliJ -> nowy pojekt
+- Java Enterprise, wybieramy JUŻ TERAZ Application server, w tym wypadku JBoss
+- wybieramy w Additional Libraries and Frameworks: Web Application
+- dodajemy jakis kod w karalogu src
+- uruchamiamy aplikację
+
+Jeśli nie zaznaczymy: Web Application, to mamy ciężej, ponieważ intelliJ nie ustawi nam, jakie artefakty mają się nam budować. Nie będziemy mieli pełnej automatyzacji od ręki.
+
+Na następne zajęcia:
+JSP w JEE 6
